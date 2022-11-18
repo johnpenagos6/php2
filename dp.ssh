@@ -12,8 +12,6 @@ sudo apt-get update -y
 
 sudo apt-get -y install docker-ce docker-ce-cli containerd.io
 
-git clone https://github.com/Johnmillos123/php2.git
-
 cd Proyecto-PHP
 
 sudo docker build -t demo:1.0 .
